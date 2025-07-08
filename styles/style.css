@@ -126,6 +126,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .cover__description-text {
     font-family: Raleway, sans-serif;
     font-size: 22px;
@@ -155,7 +156,6 @@ header {
     font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: medium;
-    text-transform: uppercase;
     letter-spacing: 0;
     line-height: auto;
     color: #fff;
@@ -263,7 +263,7 @@ header {
 }
 
 .about__column {
-    margin: 133px 24px 180px 72px;
+    margin: 133px 24px 0 72px;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -362,7 +362,7 @@ header {
 }
 
 .footer__social-link {
-
+    color:#fff;
 }
 
 .footer__social-icon {
