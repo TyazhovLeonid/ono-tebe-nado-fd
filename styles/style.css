@@ -71,7 +71,8 @@ header {
   position: relative;
   min-height: 757px;
   z-index: 1;
-  background-image: url("../images/cover.jpg");
+  background: center / cover url("../images/cover.jpg");
+  
 }
 
 .overlay {
